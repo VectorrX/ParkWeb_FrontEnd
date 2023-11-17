@@ -1,0 +1,59 @@
+.flex{
+  display: flex;
+}
+
+
+.wrapper{
+margin-top: 3%;
+width: 380px;
+height: 300px;
+background: transparent;
+border: 2px solid rgba(255,255,255,.5);
+margin-left: 35%;
+border-radius: 20px;
+backdrop-filter:blur(20px);
+/* color:white; */
+box-shadow: 0 0 30px rgba(0,0,0,0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.wrapper .form-box{
+  width: 100%;
+  padding: 40px;
+}
+
+.form-box h2{
+  font-size: 2rem;
+  color:#000000;
+  text-align: center;
+}
+
+
+.input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #CCCCCC;
+  margin: 20px 0
+}
+.btn{
+  width: 100%;
+  height:45px;
+  background: #000000;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+  color:#CCCCCC;
+  font-weight: 500;
+}
+#slot,#book{
+  display: none;
+}
+#slot input{
+  width:100%;
+  height:20px;
+}

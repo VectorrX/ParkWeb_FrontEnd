@@ -1,0 +1,37 @@
+.faqs{
+  margin: 50px 200px 50px 200px;
+}
+.faqs h2{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.faq{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 2px solid black;
+  margin-top: 20px;
+padding: 10px 20px 10px 20px;
+}
+/* .quesans{
+  border-radius: 2px solid black;
+
+} */
+.faq h4{
+  font-size: 1.4rem;
+  line-height: 2.2;
+
+}
+ul, p {
+  display: none;
+}
+
+
+
+.faq-icon{
+  padding: 14px 20px 12px 20px;
+
+}
+.faq li{
+  list-style:initial;
+}
